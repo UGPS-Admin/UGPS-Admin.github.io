@@ -1,5 +1,3 @@
-![88DD707C-962F-4BA8-A4F8-E239A6-unscreen](https://user-images.githubusercontent.com/122919964/213254543-5822f89f-5634-4b2b-93c7-d13772ed3e4b.gif)
-
 
 ![hexa](https://user-images.githubusercontent.com/122919964/213197934-4d1b5926-bca4-493e-b858-933869133a03.svg)
 

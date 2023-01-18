@@ -5,7 +5,6 @@
 <a href="https://purepro4561.github.io/">
   <img src="costume1.svg" alt="Logo" style="width: 112px; height: 97px;" />
 </a>
-
 <a href="https://UGPS-apps-onl.glitch.me/">
   <img src="costume2.svg" alt="Logo" style="width: 112px; height: 97px;" />
 </a>

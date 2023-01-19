@@ -1,6 +1,6 @@
 <img alt="" src="https://readme-typing-svg.herokuapp.com?vCenter=true&lines=Unblocked+Games;Proxies;Cloud+Gaming;All+At+Your+Fingertips">
 
-<a href="Settings.html">
+<a href="Settings.md">
   <img src="costume3.svg" alt="Logo" style="width: 112px; height: 194px;" />
 </a>
 <a href="https://purepro4561.github.io/">

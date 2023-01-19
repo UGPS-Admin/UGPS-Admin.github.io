@@ -1,13 +1,8 @@
-<title> UGPS| Home </title>
-
-<html>
-  <body style="background-color:black;">
-
 <img alt="" src="https://readme-typing-svg.herokuapp.com?vCenter=true&lines=Unblocked+Games;Proxies;Cloud+Gaming;All+At+Your+Fingertips">
 
-    <a href="https://UGPS-Admin.github.io/">
-  <img src="hexa.svg" alt="Logo" style="width: 112px; height: 194px;" />
-</a>
+![hexa](https://user-images.githubusercontent.com/122919964/213512186-03306f1f-db6c-4522-b9c6-10bb1a1950a0.svg)
+    
+    
 <a href="Settings.md">
   <img src="costume3.svg" alt="Logo" style="width: 112px; height: 194px;" />
 </a>
@@ -20,7 +15,3 @@
 <a href="More.html">
   <img src="costume4.svg" alt="Logo" style="width: 112px; height: 194px;" />
 </a>
-
-    
-  </body>
-</html>

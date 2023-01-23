@@ -11,5 +11,4 @@
  </a>
  <a href="More.html">
    <img src="costume4.svg" alt="Logo" style="width: 112px; height: 194px;" />
- </a>
-    
+ </a> 

@@ -1,84 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Settings | UGPS</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/css/redirect.css" />
-    <link rel="stylesheet" href="/css/tab.css" />
-    <link rel="stylesheet" href="/css/switch.css" />
-    <link rel="icon" href="/favicon.png" />
+    <link rel="stylesheet" href="/css/about-blank.css" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <title>about:blank | UGPS</title>
   </head>
   <body>
-    <h1 id="title" class="text-center">Settings</h1>
-    <p class="text-center" id="message">
-      Here you can configure the site to your needs.
-    </p>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5756835229788588" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display: block;" data-ad-client="ca-pub-5756835229788588" data-ad-slot="6230603875" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <h2>Tab Cloaker</h2>
     <div class="console-container">
       <div class="console">
+        <h1>about:blank</h1>
         <div class="consolebody">
-          <p>Enter a new tab title or a image URL below. Whatever you set will be used all over the site.</p>
-          <p class="console-input">> <input id="userinput" type="url" pattern="https://.*" placeholder="Enter a title or image URL" autocomplete="on" autofocus /></p>
-          <p>Output: <span id="console-output"></span></p>
+          <p>Enter a URL you want to be opened in a about:blank page below:</p>
+          <p class="console-input"><input id="url-target" value="" autocomplete="on" type="text" autofocus /></p>
+          <p>Please make sure you have the https:// on the URL, it is best to just copy the link from the actual search bar!</p>
         </div>
       </div>
       <div class="button-wrapper">
-        <button onclick="changeTabTitle();" class="console-button">Set Title</button>
-        <button onclick="changeTabIcon();" class="console-button">Set Icon</button>
-        <button onclick="resetTabSettings();" class="console-button">Uncloak</button>
+        <button id="create" class="console-button">Create page</button>
+        <button class="console-button" onclick="document.getElementById('url-target').value = ''">Clear input</button>
       </div>
-      <div class="examples">
-        <h4>Presets:</h4>
-        <p><b>Google Search: </b><button onclick="applyUrl('https://storage.googleapis.com/operating-anagram-8280/favicon-32x32.png', 'Math practice - Google Search');">Apply</button></p>
-        <p><b>Google Classroom: </b><button onclick="applyUrl('https://ssl.gstatic.com/classroom/favicon.png', 'Classes');">Apply</button></p>
-        <p><b>Google Docs: </b><button onclick="applyUrl('https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico', 'Class notes - Google Docs');">Apply</button></p>
-        <p><b>Google Drive: </b><button onclick="applyUrl('https://ssl.gstatic.com/images/branding/product/2x/hh_drive_36dp.png', 'My Drive - Google Drive');">Apply</button></p>
-        <p><b>Canvas: </b><button onclick="applyUrl('https://du11hjcvx0uqb.cloudfront.net/dist/images/favicon-e10d657a73.ico' , 'Dashboard');">Apply</button></p>
-        <p><b>Schoology: </b><button onclick="applyUrl('https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico', 'Home | Schoology');">Apply</button></p>
-        <p><b>my NG connect: </b><button onclick="applyUrl('https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.myngconnect.com/login/chooseMainUI.spr&size=16', 'my NG connect');">Apply</button></p>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5756835229788588" crossorigin="anonymous"></script>
-        <ins class="adsbygoogle" style="display: block;" data-ad-client="ca-pub-5756835229788588" data-ad-slot="6230603875" data-ad-format="auto" data-full-width-responsive="true"></ins>
-        <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5756835229788588" crossorigin="anonymous"></script>
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5756835229788588" data-ad-slot="6230603875" data-ad-format="auto" data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      <p class="credit">Made by UGPS, come visit my <a href="https://UGPS-Admin.github.io">website</a>.</p>
+      <button onclick="alert('Hello there!\n\nIf you clicked then you are wondering what this is, I can explain. So at our school, teachers have this tool called Dyknow that can screenshot the contents of the page and use it so the teacher knows what we are doing, by embedding a page into a system page (about:blank is counted as a system page), Dyknow can not screenshot or even tell the teacher what we are on! This will not unblock things but it is a start!');">What is this?</button>
     </div>
-    <div class="switchcon">
-      <label class="switch">
-        <input id="ga" type="checkbox" checked disabled/>
-        <span onclick="tog2()" class="slider round"></span>
-      </label>
-    </div>
-    <p id="switchtxt">Google Analytics <span id="gapls" style="color: #eb4034;"></span></p>
-    <div class="switchcon">
-      <label class="switch">
-        <input id="not" type="checkbox" disabled/>
-        <span onclick="" class="slider round"></span>
-      </label>
-    </div>
-    <p id="switchtxt">New Game notifications <span style="color: #eb4034;">Due to issues, this has been disabled for now.</span></p>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5756835229788588" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display: block;" data-ad-client="ca-pub-5756835229788588" data-ad-slot="6230603875" data-ad-format="auto" data-full-width-responsive="true"></ins>
     <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
+      var url = document.getElementById("url-target");
+      var urlObj = new window.URL(window.location.href);
+      document.getElementById("create").onclick = function () {
+        if (url.value.substring(0, 8) !== 'https://' && url.value.substring(0, 7) !== 'http://') {
+    		url.value = 'https://' + url.value.split('https://').pop();
+        } else if (url.value.substring(0, 7) == 'http://'){
+        	url.value = 'https://' + url.value.split('http://').pop();
+        };
+        win = window.open();
+        win.document.body.style.margin = "0";
+        win.document.body.style.height = "100vh";
+        var iframe = win.document.createElement("iframe");
+        iframe.style.border = "none";
+        iframe.style.width = "100%";
+        iframe.style.height = "100%";
+        iframe.style.margin = "0";
+        iframe.referrerpolicy = "no-referrer";
+        iframe.allow = "fullscreen";
+        iframe.src = url.value;
+        win.document.body.appendChild(iframe);
+        var script = win.document.createElement("script");
+        script.src = "https://UGPS-Admin.github.io/js/main.js";
+        win.document.body.appendChild(script);
+      };
     </script>
-    <h2>Ad settings</h2>
-    <p>Turn off or on certain ads. <b>Please keep them on to support me!</b></p>
-    <div class="switchcon">
-      <label class="switch">
-        <input id="redadswitch" type="checkbox" checked disabled/>
-        <span onclick="tog1()" class="slider round"></span>
-      </label>
-    </div>
-    <p id="switchtxt">Redirect Ads <span id="redadpls" style="color: #eb4034;"></span></p>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5756835229788588" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display: block;" data-ad-client="ca-pub-5756835229788588" data-ad-slot="6230603875" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script src="/js/tab.js"></script>
     <script src="/js/main.js"></script>
-    <script src="/js/switch.js"></script>
   </body>
 </html>

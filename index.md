@@ -9,6 +9,6 @@
  <a href="https://ugps-apps-onl.glitch.me/uv/service/hvtrs8%2F-wuw%2Cgmoelg.aoo%2F%3Dgus%5Drf%3Dqsn">
    <img src="costume2.svg" alt="Logo" style="width: 112px; height: 194px;" />
  </a>
- <a href="More.html">
+ <a href="404.html">
    <img src="costume4.svg" alt="Logo" style="width: 112px; height: 194px;" />
  </a> 
